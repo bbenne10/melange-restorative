@@ -1,6 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
-  "name": "melange-basic-project",
+  "name": "restorative",
   "version": "0.0.1",
   "sources": [
     "src"
@@ -16,6 +15,6 @@
     "reason-react"
   ],
   "warnings": {
-    "error": "+101,-5"
+    "error": "+101"
   }
 }

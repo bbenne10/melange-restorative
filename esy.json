@@ -1,5 +1,5 @@
 {
-  "name": "melange-project",
+  "name": "restorative",
   "dependencies": {
     "ocaml": "4.14.0",
     "@opam/dune": ">= 3.5.0",
@@ -16,11 +16,11 @@
   "esy": {
     "buildsInSource": "_build",
     "build": [
-      "dune build @react @node"
+      "dune build @react"
     ]
   },
   "scripts": {
-    "build:watch": "dune build @react @node -w"
+    "build:watch": "dune build @react -w"
   },
   "installConfig": {
     "pnp": false
