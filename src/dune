@@ -1,18 +1,4 @@
-(melange.emit
- (target output)
- (alias react)
- (libraries melange reason_react world restorative)
- (modules :standard \ hello main)
- (preprocess
-  (pps reactjs-jsx-ppx))
- (module_systems es6))
-
-(melange.emit
- (target node)
- (alias node)
- (libraries world)
- (modules hello main)
- (module_systems commonjs))
- (env
-  (dev
-    (flags (:standard -w -5))))
+(library
+ (name restorative)
+ (libraries reason_react)
+ (modes melange))

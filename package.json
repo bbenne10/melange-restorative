@@ -2,8 +2,8 @@
   "scripts": {
     "build": "esy",
     "build:watch": "esy && esy build:watch",
-    "bundle": "webpack --mode production --entry ./_build/default/src/output/src/ReactApp.js",
-    "serve": "webpack serve --open --mode development --entry ./_build/default/src/output/src/ReactApp.js"
+    "bundle": "webpack --mode production --entry ./_build/default/example/output/example/ReactApp.js",
+    "serve": "webpack serve --open --mode development --entry ./_build/default/example/output/example/ReactApp.js"
   },
   "dependencies": {
     "react": "^16.8.1",
