@@ -1,0 +1,4 @@
+(library
+ (name restorative)
+ (libraries reason_react)
+ (modes melange))

@@ -8,4 +8,5 @@
   (library
    (name reason_react)
    (wrapped false)
-   (modes melange))))
+   (modes melange)))
+   )

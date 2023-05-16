@@ -1,7 +1,7 @@
 (melange.emit
  (target output)
  (alias react)
- (libraries melange reason_react world)
+ (libraries melange reason_react world restorative)
  (modules :standard \ hello main)
  (preprocess
   (pps reactjs-jsx-ppx))
@@ -13,3 +13,6 @@
  (libraries world)
  (modules hello main)
  (module_systems commonjs))
+ (env
+  (dev
+    (flags (:standard -w -5))))

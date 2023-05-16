@@ -2,9 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
   "name": "melange-basic-project",
   "version": "0.0.1",
-  "sources": {
-    "dir": "src"
-  },
+  "sources": [
+    "src"
+  ],
   "package-specs": {
     "module": "commonjs"
   },
@@ -16,6 +16,6 @@
     "reason-react"
   ],
   "warnings": {
-    "error": "+101"
+    "error": "+101,-5"
   }
 }
