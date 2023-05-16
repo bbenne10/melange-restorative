@@ -1,4 +1,10 @@
 {
+  "name": "restorative",
+  "version": "0.3.2",
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
   "scripts": {
     "build": "esy",
     "build:watch": "esy && esy build:watch",
