@@ -1,9 +1,9 @@
 (melange.emit
  (target output)
  (alias react)
- (libraries melange reason_react restorative)
+ (libraries melange reason-react restorative)
  (preprocess
-  (pps reactjs-jsx-ppx))
+  (pps reason-react-ppx))
  (module_systems es6))
 
  (env
